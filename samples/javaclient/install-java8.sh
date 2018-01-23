@@ -18,7 +18,7 @@ elif [ "$VERSION" == "wheezy" ]; then
 elif [ "$VERSION" == "stretch" ]; then
     UBUNTU_VERSION="yakkety"
 else
-    echo "Not running Raspbian Wheezy or Jessie. Exiting..."
+    echo "Not running Raspbian Wheezy or Jessie or Stretch. Exiting..."
     exit 1;
 fi
 
